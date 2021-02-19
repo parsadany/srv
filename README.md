@@ -20,7 +20,7 @@ In the words of mine:
 
 ## ssh config:
 ```
- /etc/ssh/ssh_config
+/etc/ssh/ssh_config
 ```
 ## sshd config:
 ```
