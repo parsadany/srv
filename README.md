@@ -49,7 +49,7 @@ cd Python-3.8.7/
 ###install:
 todo: add pattern of configure options.
 ```
-./configure
+./configure --enable-optimizations 
 make
 make install
 ```
