@@ -21,3 +21,10 @@ ssh-keygen
 ssh-copy-id -i ~/.ssh/id_rsa.pub root@host
 ```
 
+#iptables:
+```
+iptables -nvL
+iptables -D INPUT -j REJECT --reject-with icmp-host-prohibited
+```
+
+
