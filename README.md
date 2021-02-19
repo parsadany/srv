@@ -3,6 +3,8 @@ All commads and sample conf needed frequently
 
 In the words of mine:
 > Don't forget to reboot your server as its first time boot!
+> Allways keep your OS up to date.
+> Allways write what you did on it somewhere! (if you have about 6 or 7 servers just like me, you will forget all of em!)
 
 # SSH: 
 
