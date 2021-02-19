@@ -1,0 +1,26 @@
+[Unit]
+Description=gunicorn daemon
+Requires=gunicorn.socket
+After=network.target
+
+[Service]
+Type=notify
+# the specific user that our service will run as
+#User=someuser
+#Group=someuser
+# another option for an even more restricted service is
+# DynamicUser=yes
+# see http://0pointer.net/blog/dynamic-users-with-systemd.html
+RuntimeDirectory=gunicorn
+WorkingDirectory=/root/path_to_project_root
+ExecStart=/root/venv/bin/gunicorn project_name.wsgi:application -w 1 #path_to_virtualenv_gunicorn_module --pythonic_path_to_wsgi_module -w $number_of_workers
+ExecReload=/bin/kill -s HUP $MAINPID
+KillMode=mixed
+TimeoutStopSec=5
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target
+
+
+
