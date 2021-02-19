@@ -4,14 +4,20 @@ All commads and sample conf needed frequently
 
 # SSH: 
 
-ssh config:
+##ssh config:
+```
  /etc/ssh/ssh_config
- 
-sshd config:
- /etc/ssh/sshd_config
-
-generate new key:
+```
+##sshd config:
+```
+/etc/ssh/sshd_config
+```
+##generate new key:
+```
 ssh-keygen
-
-copy key to server:
+```
+##copy key to server:
+```
 ssh-copy-id -i ~/.ssh/id_rsa.pub root@host
+```
+
