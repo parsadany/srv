@@ -1,5 +1,6 @@
 # Server Config:
 All commads and sample conf needed frequently
+
 In the words of mine:
 > Don't forget to reboot your server as its first time boot!
 
