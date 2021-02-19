@@ -3,11 +3,17 @@ All commads and sample conf needed frequently
 
 In the words of mine:
 > Don't forget to reboot your server as its first time boot!
+> 
 > Allways keep your OS up to date.
+> 
 > Allways write what you did on it somewhere! (if you have about 6 or 7 servers just like me, you will forget all of em!)
+> 
 > I strongly recommend that forget old OS versions and use almost up-to-date versions. (If you hate troubles, leave the centos7 or debian9 or ubuntu16)
+> 
 > Debian is almost more stable than Ubuntu. But if you need everything be up-to-date you are forced to use Ubuntu!
+> 
 > RHEL dists are more better (more secure and lightweight) than Debian dists.
+> 
 > Use Arch if and only if you are an Arch master!
 
 # SSH: 
