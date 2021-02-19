@@ -32,6 +32,9 @@ iptables -D INPUT -j REJECT --reject-with icmp-host-prohibited
 ```
 apt update
 apt install build-essential
+apt install build-essential libssl-dev libffi-dev python3-dev
+apt install -y python3-pip
+apt install -y python3-venv
 ```
 ## ftp address:
 ```https://www.python.org/ftp/python/```
@@ -71,6 +74,12 @@ ln -s /usr/share/pyshared/lsb_release.py /usr/local/lib/python3.8/site-packages/
 
 pip3 install --upgrade pip
 ```
+## Specific version VirtualEnv:
+```
+python3.5 -m venv my_env_path
+```
+
+
 
 
 
