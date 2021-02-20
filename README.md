@@ -15,6 +15,10 @@ In the words of mine:
 > RHEL dists are more better (more secure and lightweight) than Debian dists.
 > 
 > Use Arch if and only if you are an Arch master!
+> 
+> DO NOT install subprocess.run via pip! you can simply import it by default.
+
+
 
 # SSH: 
 
