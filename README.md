@@ -43,6 +43,9 @@ ssh-copy-id -i ~/.ssh/id_rsa.pub root@host
 ```
 iptables -nvL
 iptables -D INPUT -j REJECT --reject-with icmp-host-prohibited
+nft delete rule inet firewalld filter_INPUT handle 105
+nft delete rule inet firewalld filter_INPUT handle 98
+
 ```
 
 # Python on debian baseds:
