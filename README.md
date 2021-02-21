@@ -97,6 +97,10 @@ pip3 install --upgrade pip
 python3.5 -m venv my_env_path
 ```
 
+# Self-signed SSL:
+```
+https://www.digitalocean.com/community/tutorials/how-to-create-a-self-signed-ssl-certificate-for-nginx-on-centos-7
+```
 
 
 
