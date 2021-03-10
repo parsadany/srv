@@ -38,6 +38,30 @@ ssh-keygen
 ```
 ssh-copy-id -i ~/.ssh/id_rsa.pub root@host
 ```
+# mosh
+
+## mosh installing:
+### REHL:
+
+```
+yum install mosh
+```
+
+### Debian-Based:
+
+```
+apt-get install mosh
+
+apt install mosh
+```
+
+## mosh iptables:
+
+```
+iptables -I INPUT 1 -p udp --dport 60000:60002 -j ACCEPT
+
+iptables-saveiptables-save > /etc/iptables/rules.v4 
+```
 
 # iptables:
 ```
