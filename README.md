@@ -60,7 +60,7 @@ apt install mosh
 ```
 iptables -I INPUT 1 -p udp --dport 60000:60002 -j ACCEPT
 
-iptables-saveiptables-save > /etc/iptables/rules.v4 
+iptables-save
 ```
 
 # iptables:
