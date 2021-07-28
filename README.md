@@ -129,6 +129,11 @@ python3.5 -m venv my_env_path
 https://www.digitalocean.com/community/tutorials/how-to-create-a-self-signed-ssl-certificate-for-nginx-on-centos-7
 ```
 
+# Client:
+add connection, for example openvpn to network-manager:
+```
+sudo nmcli connection import type openvpn file /path/to/foo.ovpn
+```
 
 
 
