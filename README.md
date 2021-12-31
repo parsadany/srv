@@ -135,5 +135,9 @@ add connection, for example openvpn to network-manager:
 sudo nmcli connection import type openvpn file /path/to/foo.ovpn
 ```
 
+# Add to path:
+```
+export PATH=$PATH:/path/to/executable
+```
 
 
